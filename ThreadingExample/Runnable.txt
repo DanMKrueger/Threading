@@ -1,0 +1,6 @@
+Create a class that implements the Runnable interface. Inside the run method:
+    Create a print statement that says "Started" along with the current thread id.
+    Create a loop that prints the numbers 1-10 along with the current thread id.
+    After ending the loop write a print statement that says "finished printing" along with the current thread id.
+    In the main class instantiate two threads and pass in the class you created.
+    Run the threads.
