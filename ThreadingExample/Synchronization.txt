@@ -1,0 +1,4 @@
+The Synchronized keyword on a method means that if *this* is already locked anywhere (on this method or elsewhere) by another thread, we will need to wait till
+*this* is unlocked before entering the method.
+
+Challenge: Take the existing thread code, and create a method that synchronizes the increasing of the number.

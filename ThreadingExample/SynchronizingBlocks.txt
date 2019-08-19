@@ -1,0 +1,2 @@
+When Synchronizing a block, key for the locking should be supplied (Usually would be this)
+The advantage of not Synchronizing the entire method is efficiency. 
