@@ -20,7 +20,7 @@ public class WaitNotify {
  
         synchronized(myThread){
             try{
-                System.out.println("Waiting for b to complete...");
+                System.out.println("Waiting for myThread to complete...");
                 myThread.wait();
             }catch(InterruptedException e){
                 e.printStackTrace();
